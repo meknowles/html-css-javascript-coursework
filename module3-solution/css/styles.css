@@ -1,0 +1,124 @@
+body {
+	font-size: 16px;
+	color: #FFF;
+	background-color: #008ab7;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0px -15px 20px 0px;
+  padding: 0px auto 0px auto
+}
+
+
+/** Header **/ 
+.navbar-brand h1 { /* Company name */
+  color: #009081;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  line-height: .75;
+  
+}
+
+
+
+div#header-nav.container {
+  margin: 0px auto 0px auto;
+  width: 100%;
+  background-color: #003d60;
+  padding: 0px 0px 0px 0px;
+  border: 0px solid black;
+  float: center;
+  }
+
+.navbar-toggle {
+  margin-right: 8px;
+  border-radius: 0px;
+}
+
+
+/** Body **/
+
+h2 {
+	text-align: center;
+}
+
+.container {
+  margin-top: 0;
+  margin-bottom: 30;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #000022;
+  background-color: #009eb5;
+  width: 90%;
+}
+
+#nav-list {
+  margin: 0 auto 0 auto;
+  
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#nav-list a {
+  font-size: 1.2em;
+  border: 1px;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.col-md-12 {
+	width: 100%;
+}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .col-md-12 {
+  width: 100%;
+}
+ 
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-12 {
+  width: 100%;
+}
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  div.navbar-brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8px -20px 20px 0px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    font-size: 2em;
+  }
+.col-md-12 {
+  width: 100%;
+}
+}
+ 
+
+
+
